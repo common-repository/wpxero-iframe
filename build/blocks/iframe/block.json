@@ -1,0 +1,173 @@
+{
+  "apiVersion": 2,
+  "name": "wpxero-iframe/iframe",
+  "version": "1.0.0",
+  "title": "WPXero Iframe",
+  "category": "wpxero-iframe",
+  "description": "Wpxero iframe for  WordPress Users. You can use this block to embed iframe, video, audio, maps, google map, etc.",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "keywords": [
+    "iframe",
+    "embed",
+    "video",
+    "audio",
+    "youtube",
+    "vimeo",
+    "place",
+    "maps",
+    "google map"
+  ],
+  "attributes": {
+    "iframe_id": {
+      "type": "string",
+      "default": ""
+    },
+    "iframe_class": {
+      "type": "string",
+      "default": ""
+    },
+    "iframe_url": {
+      "type": "string",
+      "default": ""
+    },
+    "iframe_title": {
+      "type": "string",
+      "default": ""
+    },
+    "iframe_width": {
+      "type": "number",
+      "default": 450
+    },
+    "iframe_height": {
+      "type": "number",
+      "default": 350
+    },
+    "iframe_allowfullscreen": {
+      "type": "boolean",
+      "default": false
+    },
+    "iframe_frameborder": {
+      "type": "number",
+      "default": 0
+    },
+    "iframe_scrolling": {
+      "type": "string",
+      "default": "no"
+    },
+    "iframe_sandbox": {
+      "type": "string",
+      "default": ""
+    },
+    "iframe_name": {
+      "type": "string",
+      "default": ""
+    },
+    "iframe_style": {
+      "type": "string",
+      "default": ""
+    },
+    "iframe_loading": {
+      "type": "string",
+      "default": "lazy"
+    },
+    "lazyload": {
+      "type": "boolean",
+      "default": false
+    },
+    "throttle": {
+      "type": "number",
+      "default": 0
+    },
+    "threshold": {
+      "type": "number",
+      "default": 0
+    },
+    "lazyload_offset": {
+      "type": "number",
+      "default": 0
+    },
+    "lazyload_method": {
+      "type": "string",
+      "default": "scroll"
+    },
+    "lazyload_blur": {
+      "type": "boolean",
+      "default": false
+    },
+    "lazyload_fadein": {
+      "type": "boolean",
+      "default": false
+    },
+    "lazyload_onload": {
+      "type": "boolean",
+      "default": false
+    },
+    "lazyload_placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "lazyload_srcset": {
+      "type": "boolean",
+      "default": false
+    },
+    "lazyload_sizes": {
+      "type": "boolean",
+      "default": false
+    },
+    "lazyload_loading": {
+      "type": "string",
+      "default": "auto"
+    },
+    "lazyload_threshold": {
+      "type": "number",
+      "default": 0
+    },
+    "lazyload_unobserve_completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "lazyload_callback_enter": {
+      "type": "string",
+      "default": ""
+    },
+    "lazyload_callback_exit": {
+      "type": "string",
+      "default": ""
+    },
+    "lazyload_callback_reveal": {
+      "type": "string",
+      "default": ""
+    },
+    "lazyload_callback_loaded": {
+      "type": "string",
+      "default": ""
+    },
+    "lazyload_callback_error": {
+      "type": "string",
+      "default": ""
+    },
+    "lazyload_callback_finish": {
+      "type": "string",
+      "default": ""
+    },
+    "width": {
+      "type": "number",
+      "default": 450
+    },
+    "height": {
+      "type": "number",
+      "default": 350
+    },
+    "alignments": {
+      "type": "string",
+      "default": "center"
+    }
+  },
+  "textdomain": "wpxero-iframe",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
